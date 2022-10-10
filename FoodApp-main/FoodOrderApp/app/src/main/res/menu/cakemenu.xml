@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.cakeninja.lannet.cakeninja.MainActivity">
+    <item
+        android:id="@+id/simplmenu"
+        android:title="Simple"/>
+
+    <item
+        android:id="@+id/eggmenu"
+        android:title="Egg Less"/>
+
+    <item
+        android:id="@+id/sugfreemenu"
+        android:title="Sugar Free"/>
+
+    <item
+        android:id="@+id/sugmenu"
+        android:title="Sugar Free/Egg Less"/>
+
+</menu>

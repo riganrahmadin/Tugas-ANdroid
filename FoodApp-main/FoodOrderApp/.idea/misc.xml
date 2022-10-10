@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/FoodApp-main/FoodOrderApp/app/src/main/res/layout/activity_card_view.xml" value="0.259375" />
+        <entry key="..\:/FoodApp-main/FoodOrderApp/app/src/main/res/layout/activity_main.xml" value="0.259375" />
+        <entry key="..\:/FoodApp-main/FoodOrderApp/app/src/main/res/layout/activity_vendorlist.xml" value="0.259375" />
+        <entry key="..\:/FoodApp-main/FoodOrderApp/app/src/main/res/layout/card_view_row.xml" value="0.259375" />
+        <entry key="..\:/FoodApp-main/FoodOrderApp/app/src/main/res/layout/content_main.xml" value="0.259375" />
+        <entry key="..\:/FoodApp-main/FoodOrderApp/app/src/main/res/layout/date_time_picker_show.xml" value="0.259375" />
+        <entry key="..\:/FoodApp-main/FoodOrderApp/app/src/main/res/layout/detail_product.xml" value="0.259375" />
+        <entry key="..\:/FoodApp-main/FoodOrderApp/app/src/main/res/layout/drawer_header.xml" value="0.259375" />
+        <entry key="..\:/FoodApp-main/FoodOrderApp/app/src/main/res/layout/dttm_picker.xml" value="0.259375" />
+        <entry key="..\:/FoodApp-main/FoodOrderApp/app/src/main/res/layout/grid_single.xml" value="0.259375" />
+        <entry key="..\:/FoodApp-main/FoodOrderApp/app/src/main/res/layout/header_afterlogin.xml" value="0.259375" />
+        <entry key="..\:/FoodApp-main/FoodOrderApp/app/src/main/res/layout/login_activity.xml" value="0.259375" />
+        <entry key="..\:/FoodApp-main/FoodOrderApp/app/src/main/res/layout/mylist.xml" value="0.259375" />
+        <entry key="..\:/FoodApp-main/FoodOrderApp/app/src/main/res/layout/myoderhitorylist.xml" value="0.259375" />
+        <entry key="..\:/FoodApp-main/FoodOrderApp/app/src/main/res/layout/myorder_placed_view_row.xml" value="0.259375" />
+        <entry key="..\:/FoodApp-main/FoodOrderApp/app/src/main/res/layout/myterms.xml" value="0.259375" />
+        <entry key="..\:/FoodApp-main/FoodOrderApp/app/src/main/res/layout/order_place.xml" value="0.259375" />
+        <entry key="..\:/FoodApp-main/FoodOrderApp/app/src/main/res/layout/order_placed_view_row.xml" value="0.259375" />
+        <entry key="..\:/FoodApp-main/FoodOrderApp/app/src/main/res/layout/payment_option.xml" value="0.259375" />
+        <entry key="..\:/FoodApp-main/FoodOrderApp/app/src/main/res/layout/product_grid_activity.xml" value="0.259375" />
+        <entry key="..\:/FoodApp-main/FoodOrderApp/app/src/main/res/layout/signup_activity.xml" value="0.259375" />
+        <entry key="..\:/FoodApp-main/FoodOrderApp/app/src/main/res/layout/splash_activity.xml" value="0.259375" />
+        <entry key="..\:/FoodApp-main/FoodOrderApp/app/src/main/res/layout/successpay.xml" value="0.259375" />
+        <entry key="..\:/FoodApp-main/FoodOrderApp/app/src/main/res/layout/thank.xml" value="0.259375" />
+        <entry key="..\:/FoodApp-main/FoodOrderApp/app/src/main/res/layout/vendor_card_view_row.xml" value="0.259375" />
+        <entry key="..\:/Tugas ANdroid/FoodApp-main/FoodOrderApp/app/src/main/res/layout/activity_main.xml" value="0.259375" />
+        <entry key="..\:/Tugas ANdroid/FoodApp-main/FoodOrderApp/app/src/main/res/layout/card_view_row.xml" value="0.259375" />
+        <entry key="..\:/Tugas ANdroid/FoodApp-main/FoodOrderApp/app/src/main/res/layout/content_main.xml" value="0.259375" />
+        <entry key="..\:/Tugas ANdroid/FoodApp-main/FoodOrderApp/app/src/main/res/layout/date_time_picker_show.xml" value="0.259375" />
+        <entry key="..\:/Tugas ANdroid/FoodApp-main/FoodOrderApp/app/src/main/res/layout/detail_product.xml" value="0.264" />
+        <entry key="..\:/Tugas ANdroid/FoodApp-main/FoodOrderApp/app/src/main/res/layout/drawer_header.xml" value="0.259375" />
+        <entry key="..\:/Tugas ANdroid/FoodApp-main/FoodOrderApp/app/src/main/res/layout/grid_single.xml" value="0.259375" />
+        <entry key="..\:/Tugas ANdroid/FoodApp-main/FoodOrderApp/app/src/main/res/layout/header_afterlogin.xml" value="0.259375" />
+        <entry key="..\:/Tugas ANdroid/FoodApp-main/FoodOrderApp/app/src/main/res/layout/login_activity.xml" value="0.259375" />
+        <entry key="..\:/Tugas ANdroid/FoodApp-main/FoodOrderApp/app/src/main/res/layout/mylist.xml" value="0.19293478260869565" />
+        <entry key="..\:/Tugas ANdroid/FoodApp-main/FoodOrderApp/app/src/main/res/layout/myoderhitorylist.xml" value="0.259375" />
+        <entry key="..\:/Tugas ANdroid/FoodApp-main/FoodOrderApp/app/src/main/res/layout/myorder_placed_view_row.xml" value="0.259375" />
+        <entry key="..\:/Tugas ANdroid/FoodApp-main/FoodOrderApp/app/src/main/res/layout/myterms.xml" value="0.259375" />
+        <entry key="..\:/Tugas ANdroid/FoodApp-main/FoodOrderApp/app/src/main/res/layout/order_place.xml" value="0.259375" />
+        <entry key="..\:/Tugas ANdroid/FoodApp-main/FoodOrderApp/app/src/main/res/layout/order_placed_view_row.xml" value="0.259375" />
+        <entry key="..\:/Tugas ANdroid/FoodApp-main/FoodOrderApp/app/src/main/res/layout/signup_activity.xml" value="0.259375" />
+        <entry key="..\:/Tugas ANdroid/FoodApp-main/FoodOrderApp/app/src/main/res/layout/splash_activity.xml" value="0.259375" />
+        <entry key="..\:/Tugas ANdroid/FoodApp-main/FoodOrderApp/app/src/main/res/layout/successpay.xml" value="0.259375" />
+        <entry key="..\:/Tugas ANdroid/FoodApp-main/FoodOrderApp/app/src/main/res/layout/vendor_card_view_row.xml" value="0.259375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,75 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.android.foodorderapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->D:\Tugas ANdroid\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\Tugas ANdroid\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Tugas ANdroid\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:4:3-64
+11-->D:\Tugas ANdroid\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:4:20-62
+12
+13    <permission
+13-->[androidx.core:core:1.9.0-alpha05] C:\Users\Acer\.gradle\caches\transforms-2\files-2.1\7fcec4d39409dbd669fe8d735f96d2b5\core-1.9.0-alpha05\AndroidManifest.xml:23:5-25:47
+14        android:name="com.android.foodorderapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.9.0-alpha05] C:\Users\Acer\.gradle\caches\transforms-2\files-2.1\7fcec4d39409dbd669fe8d735f96d2b5\core-1.9.0-alpha05\AndroidManifest.xml:24:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.9.0-alpha05] C:\Users\Acer\.gradle\caches\transforms-2\files-2.1\7fcec4d39409dbd669fe8d735f96d2b5\core-1.9.0-alpha05\AndroidManifest.xml:25:9-44
+16
+17    <uses-permission android:name="com.android.foodorderapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.9.0-alpha05] C:\Users\Acer\.gradle\caches\transforms-2\files-2.1\7fcec4d39409dbd669fe8d735f96d2b5\core-1.9.0-alpha05\AndroidManifest.xml:27:5-97
+17-->[androidx.core:core:1.9.0-alpha05] C:\Users\Acer\.gradle\caches\transforms-2\files-2.1\7fcec4d39409dbd669fe8d735f96d2b5\core-1.9.0-alpha05\AndroidManifest.xml:27:22-94
+18
+19    <application
+19-->D:\Tugas ANdroid\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:5:5-23:19
+20        android:allowBackup="true"
+20-->D:\Tugas ANdroid\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:6:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.9.0-alpha05] C:\Users\Acer\.gradle\caches\transforms-2\files-2.1\7fcec4d39409dbd669fe8d735f96d2b5\core-1.9.0-alpha05\AndroidManifest.xml:29:18-86
+22        android:debuggable="true"
+23        android:extractNativeLibs="false"
+24        android:icon="@mipmap/ic_launcher"
+24-->D:\Tugas ANdroid\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:7:9-43
+25        android:label="@string/app_name"
+25-->D:\Tugas ANdroid\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:8:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->D:\Tugas ANdroid\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:9:9-54
+27        android:supportsRtl="true"
+27-->D:\Tugas ANdroid\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:10:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.FoodOrderApp" >
+29-->D:\Tugas ANdroid\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:11:9-50
+30        <activity android:name="com.android.foodorderapp.OrderSucceessActivity" />
+30-->D:\Tugas ANdroid\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:12:9-68
+30-->D:\Tugas ANdroid\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:12:19-56
+31        <activity android:name="com.android.foodorderapp.PlaceYourOrderActivity" />
+31-->D:\Tugas ANdroid\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:13:9-60
+31-->D:\Tugas ANdroid\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:13:19-57
+32        <activity android:name="com.android.foodorderapp.RestaurantMenuActivity" />
+32-->D:\Tugas ANdroid\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:14:9-60
+32-->D:\Tugas ANdroid\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:14:19-57
+33        <activity android:name="com.android.foodorderapp.SplashActivity" >
+33-->D:\Tugas ANdroid\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:15:9-21:20
+33-->D:\Tugas ANdroid\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:15:19-49
+34            <intent-filter>
+34-->D:\Tugas ANdroid\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:16:13-20:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->D:\Tugas ANdroid\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:17:17-69
+35-->D:\Tugas ANdroid\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:17:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->D:\Tugas ANdroid\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:19:17-77
+37-->D:\Tugas ANdroid\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:19:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity android:name="com.android.foodorderapp.MainActivity" />
+40-->D:\Tugas ANdroid\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:22:9-50
+40-->D:\Tugas ANdroid\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:22:19-47
+41    </application>
+42
+43</manifest>

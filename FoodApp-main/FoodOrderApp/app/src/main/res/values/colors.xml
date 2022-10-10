@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="bgcolor">#D4D4D4</color>
+    <color name="indexscreen">#DC3E00</color>
+    <color name="header">#F9F9F9</color>
+    <color name="textcolorwhite">#fff</color>
+    <color name="textcolorblack">#000</color>
+    <color name="indexmiddlelayout">#2DA4CF</color>
+    <color name="footercolor">#F9F9F9</color>
+    <color name="spinnercolor">#F2F2F2</color>
+    <color name="buttoncolor">#1E99D5</color>
+    <color name="lineborader">#D7D7D7</color>
+    <color name="textcolor1">#7A7A7A</color>
+    <color name="linecolo">#C0C0C0</color>
+    <color name="textbordercolor">#C8C8C8</color>
+    <color name="saveconnection_layout_bg">#F3F3F3</color>
+    <color name="textboxcolor2">#D4D4D4</color>
+    <color name="rechargeVIAtextcolor">#515151</color>
+    <color name="add_cash_color_bg">#656565</color>
+    <color name="linewhite">#E4E4E4</color>
+    <color name="tab_color">#2DA4CF</color>
+    <color name="index_button_border">#BA2B00</color>
+    <color name="via_sms_box_border">#0A0A0A</color>
+    <color name="spinner_color">#F5F5F5</color>
+    <color name="processed_to_securly">#E4805A</color>
+    <color name="cancel">#007FC8</color>
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+    <color name="primary">#fe2e2e</color>
+    <color name="primarydark">#EFcb2424</color>
+
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="indigo">	#4B0082</color>
+
+    <color name="bottomdefault">#F9F9F9</color>
+    <color name="selectedcolor">#878686</color>
+    <color name="header_color">#1B1B1B</color>
+    <color name="banner_text_color">#E7C77A</color>
+    <color name="trasparent">#65000000</color>
+
+    <color name="foter_menu_bg">#F1C55C</color>
+
+    <color name="footer_tab_celected">#EBD8AD</color>
+
+</resources>

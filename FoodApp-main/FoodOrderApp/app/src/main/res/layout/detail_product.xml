@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.cakeninja.lannet.cakeninja.MainActivity">
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="fill_parent">
+
+<ImageView
+    android:id="@+id/proimg"
+    android:layout_width="fill_parent"
+    android:layout_height="200dp"
+
+    android:src="@drawable/logo1"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:text="Product Description"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:background="#A9A9A9"/>
+        <TextView
+            android:id="@+id/prdestxt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="sdjflsdjfljsdlfjlsdjflksdjlfjskldjflsjdlfjsdlkjflksdjflkjsdlfjsdljflsdjflsdjflsdjl"/>
+<View
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="#000"/>
+      <LinearLayout
+          android:id="@+id/layoutl"
+          android:layout_width="fill_parent"
+          android:orientation="vertical"
+          android:visibility="gone"
+          android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:text="Delivery Address"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:background="#A9A9A9"/>
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@+id/input_layout_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+
+                android:id="@+id/dadres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+
+                android:hint="Delivery Addres" />
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+
+android:id="@+id/mobtxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:inputType="number"
+                android:hint="Mobile no" />
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+
+                android:id="@+id/dttm"
+                android:focusable="false"
+                android:editable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:hint="Date and Time" />
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+
+                android:id="@+id/msgcake"
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:maxLength="20"
+                android:layout_height="wrap_content"
+                android:hint="Message on cake" />
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+
+                android:layout_height="fill_parent">
+                <TextView
+                    android:layout_width="fill_parent"
+              android:text="Cake customization"
+                    android:paddingLeft="10dp"
+                    android:layout_margin="4dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="fill_parent">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:paddingLeft="8dp"
+                    android:text="Weight"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+
+
+            android:layout_height="50dp">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+
+                android:layout_height="fill_parent">
+                <TextView
+                    android:id="@+id/cakemenubtn"
+                    android:layout_width="fill_parent"
+                    android:background="@drawable/drp"
+                    android:layout_margin="4dp"
+                    android:textColor="#fff"
+                    android:paddingLeft="10dp"
+                    android:gravity="center"
+                    android:layout_height="fill_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="fill_parent">
+                <TextView
+                    android:id="@+id/simplemenubtn"
+                    android:layout_width="fill_parent"
+                    android:background="@drawable/drp"
+                    android:gravity="center"
+                    android:textColor="#fff"
+                    android:layout_margin="4dp"
+                    android:layout_height="fill_parent" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+      </LinearLayout>
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:text="Qty"
+            android:paddingLeft="10dp"
+            android:layout_margin="4dp"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:paddingLeft="4dp"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_weight="1"
+    android:paddingLeft="10dp"
+    android:layout_height="fill_parent">
+            <TextView
+                android:id="@+id/minusbtbn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="-"
+                android:textSize="20dp"
+                android:textColor="@android:color/holo_red_dark"
+                android:gravity="center"
+                android:background="@drawable/round_text_remove_item"/>
+
+            <TextView
+                android:id="@+id/textvalu"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="1"/>
+            <TextView
+                android:id="@+id/plusbtn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="+"
+android:textColor="@android:color/holo_green_dark"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:background="@drawable/round_text_add_item"/>
+</LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingLeft="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <TextView
+                  android:text="Price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/pricetxt"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+android:layout_marginTop="10dp"
+
+            android:layout_height="60dp">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+
+                android:layout_height="fill_parent">
+                <TextView
+                    android:id="@+id/adcarrtbtn"
+                    android:layout_width="fill_parent"
+                    android:background="@drawable/btnbg"
+                    android:layout_margin="4dp"
+                    android:text="Add To Cart"
+                    android:gravity="center"
+                    android:textSize="22dp"
+                    android:textColor="#fff"
+                    android:layout_height="fill_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="fill_parent">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:background="@drawable/btnbg"
+                    android:layout_margin="4dp"
+                    android:text="Buy now"
+                    android:gravity="center"
+                    android:textSize="22dp"
+                    android:textColor="#fff"
+                    android:layout_height="fill_parent" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
